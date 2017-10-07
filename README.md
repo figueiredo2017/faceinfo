@@ -2,7 +2,7 @@ Face Detection and Information
 ========
 
 This app is my first usage of Symfony. It uses Face++ API to detect faces to return how many people in the picture, estimate age, ethnicity and gender.
-              
+
 Technology Used
 ---------------
 
@@ -13,7 +13,7 @@ Technology Used
 
 Live Version
 ---------------
-A live version can be viewed [here](http://figueiredoluiz.com/projects/faceinfo) .
+A live version can be viewed [here](http://figueiredoluiz.com/projects/faceinfo/web/) .
 
 Edited Files
 ---------------
