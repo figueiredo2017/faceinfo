@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}About this Project{% endblock %}
+
+{% block body %}
+
+    <div class="jumbotron text-center">
+        <h1>About</h1>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-6">
+
+            <table class="table table-responsive">
+                <tbody>
+                <tr>
+                    <th class="bg-dark text-light" role="row">Tech</th>
+                    <td>
+                        <ul>
+                            <li>Symfony</li>
+                            <li>Bootstrap</li>
+                            <li>Unirest</li>
+                            <li>Vich/Uploader-bundle</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="bg-dark text-light" role="row">Data</th>
+                    <td>
+                        Face++ (<a href="https://faceplusplus.com">https://faceplusplus.com</a>)<br>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="col-lg-6">
+            <p>This app was created as a Symfony implementation exercise.</p>
+        </div>
+
+    </div>
+
+
+
+{% endblock %}

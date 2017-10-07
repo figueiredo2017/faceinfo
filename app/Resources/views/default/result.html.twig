@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% block title %}Picture Details{% endblock %}
+
+{% block body %}
+
+<div class="row">
+
+    <div class="col-lg-6">
+        <img src="{{ asset('uploads/faces/' ~ face) }}" width="400" class="image-responsive" />
+    </div>
+    <div class="col-lg-6">
+        <h2>Faces detected {{ result.total_detected }}</h2>
+        <ul>
+            {% for detail in result.details %}
+                <li>{{ detail.gender }}, {{ detail.age }}, {{ detail.ethnicity }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}
